@@ -1,4 +1,3 @@
-'use client';
 import ContactCard from "../components/ContactCard";
 
 export const metadata = {
