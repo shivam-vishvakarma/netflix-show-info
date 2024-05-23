@@ -9,13 +9,13 @@ export const metadata = {
 
 const Movie = async () => {
   //   await new Promise((resolve) => setTimeout(resolve, 2000));
-  const url = process.env.RAPID_KEY;
+  const url = process.env.RAPIDAPI_URL;
 
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "c02fbc68bcmshbcf86db29a2c655p12007cjsn9adea8d51505",
-      "X-RapidAPI-Host": "netflix54.p.rapidapi.com",
+      "X-RapidAPI-Key": process.env.RAPIDAPI_KEY,
+      "X-RapidAPI-Host": process.env.RAPIDAPI_HOST,
     },
   };
 
