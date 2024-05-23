@@ -1,3 +1,4 @@
+'use client';
 import heroStyles from "@/app/styles/herosection.module.css";
 import styles from "@/app/styles/common.module.css";
 import Image from "next/image";

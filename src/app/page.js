@@ -1,3 +1,4 @@
+'use client';
 import Herosection from "./components/Herosection";
 
 const page = () => {

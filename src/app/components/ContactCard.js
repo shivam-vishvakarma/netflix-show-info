@@ -1,3 +1,4 @@
+'use client';
 import styles from "@/app/contact/contact.module.css";
 import Link from "next/link";
 

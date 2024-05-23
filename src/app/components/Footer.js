@@ -1,3 +1,4 @@
+'use client'
 import styles from "@/app/styles/common.module.css";
 
 export default function Footer() {
