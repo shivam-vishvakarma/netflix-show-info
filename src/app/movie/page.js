@@ -3,8 +3,8 @@ import MovieCard from "@/app/components/MovieCard";
 import styles from "@/app/styles/common.module.css";
 
 export const metadata = {
-  title: "Movies | Netflix",
-  description: "Netflix is the best streaming service in the world.",
+  title: "Movies | Flixes",
+  description: "Watch the latest movies and series.",
 };
 
 const Movie = async () => {

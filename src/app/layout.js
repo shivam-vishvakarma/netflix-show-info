@@ -6,8 +6,8 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Home | Netflix",
-  description: "Netflix is the best streaming service in the world.",
+  title: "Home | Flixes",
+  description: "The best movies and TV shows on the internet.",
 };
 
 export default function RootLayout({ children }) {

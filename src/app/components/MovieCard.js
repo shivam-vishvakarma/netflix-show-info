@@ -9,7 +9,7 @@ const MovieCard = (curElem) => {
       <div className={styles.card}>
         <div className={styles.card_image}>
           <Image
-            src={curElem.jawSummary.backgroundImage.url}
+            src={curElem.jawSummary.backgroundImage.url || "/dummyvideo.png"}
             alt={title}
             width={250}
             height={200}

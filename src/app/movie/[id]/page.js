@@ -24,10 +24,10 @@ const Page = async ({params}) => {
             <div className={styles.container}>
                 <h2 className={styles.movie_title}>   Netflix \ <span> {main_data.type} </span> </h2>
                 <div className={styles.card_section}>
-                    <div>
-                        <Image src={main_data.backgroundImage.url} alt={main_data.title} width={600} height={300} />
+                    <div className={styles.img}>
+                        <Image src={main_data.backgroundImage.url || "/dummyvideo.png"} alt={main_data.title} width={600} height={300} />
                     </div>
-                    <div>
+                    <div className={styles.content}>
                         <h1>{main_data.title}</h1>
                         <p>{main_data.synopsis}</p>
                     </div>

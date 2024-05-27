@@ -1,8 +1,8 @@
 import ContactCard from "../components/ContactCard";
 
 export const metadata = {
-  title: "Contact | Netflix",
-  description: "Netflix is the best streaming service in the world.",
+  title: "Contact | Flixes",
+  description: "Get in touch with us.",
 };
 
 const page = () => {

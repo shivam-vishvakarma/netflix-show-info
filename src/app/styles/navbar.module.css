@@ -16,7 +16,17 @@
 
 
 .navbar_brand {
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e50914;
+    font-size: 40px;
+    font-weight: 900;
+    margin: auto;
 }
 
 .navbarList {
